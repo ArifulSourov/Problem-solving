@@ -4,4 +4,5 @@ def f(x):
 
 
 #using filter function
-print(filter(f, range(1, 100)))
+r = filter(f,range(1, 100))
+print(list(r))

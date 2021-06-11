@@ -29,7 +29,7 @@ def two_sum(A, target):
             j -= 1
     return False
 
-A = [1, 2, 3, 4, 11]
+A = [1, 2, 5, 9, 3, 4, 11]
 print(two_sum_brute_force(A, 13))
 print(two_sum_hash_table(A, 13))
 print(two_sum(A, 13))
